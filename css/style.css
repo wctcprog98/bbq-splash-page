@@ -1,0 +1,81 @@
+body {
+     font-family: 'Source Sans Pro', sans-serif;
+     color: #404040; 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-align: center;
+}
+
+/* =================
+   Typography 
+   ================= */
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: #fff ;
+}
+
+h1 + p {
+color: #f18119;
+font-weight: 900;
+font-size: 1.3125rem;
+}
+
+h2 {
+    font-size: 1.3125rem;
+    letter-spacing: 1px;
+}
+
+h2 + p {
+    font-weight: 900;
+    font-size: 1rem;
+    color: #F18119;
+}
+
+.upper {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.top-text {
+    color: #F18119;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.625rem;
+}
+
+.fine-print {
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+}
+
+strong {
+    font-weight: 900; 
+    color: #fff;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+/* =================
+   Intro section 
+   ================= */
+
+   .intro {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 .25em 1em;
+    background-color: #404040;
+    background-image: url("https://raw.githubusercontent.com/kevin-powell/reponsive-web-design-bootcamp/master/Module%203%20-%20BBQ%20splash%20page/images/ribs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+    color: #404040;
+    background-color: #fff;
+}
+
